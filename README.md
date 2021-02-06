@@ -3,4 +3,4 @@
 
 ## 🚀 Quick start
 
-    yarn run
+    yarn dev
