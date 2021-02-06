@@ -1,7 +1,7 @@
 import path from "path"
 import { createFilePath } from "gatsby-source-filesystem"
 import { GatsbyNode } from "gatsby"
-import { MarkdownRemark } from "../entities/markdown-remark"
+import { MarkdownRemark } from "../src/entities/markdown-remark"
 
 export const onCreateNode: GatsbyNode["onCreateNode"] = ({ node, getNode, actions }) => {
     const { createNodeField } = actions
